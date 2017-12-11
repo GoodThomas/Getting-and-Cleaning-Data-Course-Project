@@ -2,6 +2,9 @@
 
 if(!file.exists("./data")){dir.create("./data")}
 download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", destfile = "./data/Dataset.zip", method = "curl")
+install.packages("zip")
+install.packages("data.table")
+install.packages("dplyr")
 library(zip)
 unzip("./data/Dataset.zip", exdir = "./data/")
 library(data.table)

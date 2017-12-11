@@ -11,13 +11,6 @@
 ## Download
 Download `run_analysis.R`.
 
-## First use
-```
-install.packages("zip")
-install.packages("data.table")
-install.packages("dplyr")
-```
-
 ## Run the script
 ```
 source('./run_analysis.R')
